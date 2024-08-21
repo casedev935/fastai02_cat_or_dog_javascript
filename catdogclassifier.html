@@ -1,0 +1,42 @@
+---
+title: Cat or Dog Classification
+layout: page
+---
+
+<h1>Image Classification with Hugging Face and Gradio</h1>
+<input type="file" id="fileInput" accept="image/*">
+<img id="uploadedImage" alt="Uploaded Image">
+<div id="result"></div>
+
+<script type="module">
+
+import { Client, handle_file } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";
+
+const app = await Client.connect("casedev/catdogclassifier");
+
+document.getElementById("fileInput").addEventListener("change", async (event) => {
+    const file = event.target.files[0];
+
+    if (!file) {
+        alert("Please upload an image file.");
+        return;
+    }
+
+    // Display the uploaded image
+    const imgElement = document.getElementById("uploadedImage");
+    imgElement.src = URL.createObjectURL(file);
+    imgElement.style.display = "block"; // Show the image
+
+    const resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "Processing...";
+
+    try {
+        const result = await app.predict("/predict", [handle_file(file)]);
+
+        resultDiv.innerHTML = `Prediction: ${JSON.stringify(result.data[0].label)}`;
+    } catch (error) {
+        resultDiv.innerHTML = "Error: " + error.message;
+    }
+});
+
+</script>
