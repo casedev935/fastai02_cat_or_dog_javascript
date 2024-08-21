@@ -14,19 +14,19 @@
 
 ## Technologies used
 
-[![Kaggle](https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg =100x)](https://www.kaggle.com/)
+[![Kaggle](https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg)](https://www.kaggle.com/)
 
-[![Jupyter](https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg =100x)](https://jupyter.org/)
+[![Jupyter](https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg)](https://jupyter.org/)
 
-[![Hugging Face](https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg =100x)](https://huggingface.co/)
+[![Hugging Face](https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg)](https://huggingface.co/)
 
-[![Gradio](https://www.vectorlogo.zone/logos/gradioapp/gradioapp-ar21.svg =100x)](https://gradio.app/)
+[![Gradio](https://www.vectorlogo.zone/logos/gradioapp/gradioapp-ar21.svg)](https://gradio.app/)
 
-[![FastAI](https://www.vectorlogo.zone/logos/fastai/fastai-ar21.svg =100x)](https://www.fast.ai/)
+[![FastAI](https://www.vectorlogo.zone/logos/fastai/fastai-ar21.svg)](https://www.fast.ai/)
 
-[![HTML](https://www.vectorlogo.zone/logos/html5/html5-ar21.svg =100x)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![HTML](https://www.vectorlogo.zone/logos/html5/html5-ar21.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-[![JavaScript](https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg =100x)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![JavaScript](https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Requirements
 
