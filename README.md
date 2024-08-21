@@ -14,39 +14,19 @@
 
 ## Technologies used
 
-[![Kaggle](https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg)](https://www.kaggle.com/)
-[![Jupyter](https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg)](https://jupyter.org/) 
-[![HuggingFace](https://seekvectorlogo.net/hugging-face-vector-logo-svg/)](https://huggingface.co/spaces/casedev/test/)
-[![Gradio](https://github.com/gilbarbara/logos/blob/main/logos/gradio.svg)](https://www.gradio.app/)
-[![FastAI](https://github.com/fastai/logos/blob/main/fastai_small.png)](https://www.fast.ai/)
+[![Kaggle](https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg =100x)](https://www.kaggle.com/)
 
-<a href="https://www.kaggle.com" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kaggle_logo.svg/512px-Kaggle_logo.svg.png" alt="Kaggle" width="100"/>
-</a>
+[![Jupyter](https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg =100x)](https://jupyter.org/)
 
-<a href="https://jupyter.org" target="_blank">
-    <img src="https://jupyter.org/assets/main-logo.svg" alt="Jupyter" width="100"/>
-</a>
+[![Hugging Face](https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg =100x)](https://huggingface.co/)
 
-<a href="https://huggingface.co" target="_blank">
-    <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="100"/>
-</a>
+[![Gradio](https://www.vectorlogo.zone/logos/gradioapp/gradioapp-ar21.svg =100x)](https://gradio.app/)
 
-<a href="https://gradio.app" target="_blank">
-    <img src="https://gradio.app/_static/gradio_logo.svg" alt="Gradio" width="100"/>
-</a>
+[![FastAI](https://www.vectorlogo.zone/logos/fastai/fastai-ar21.svg =100x)](https://www.fast.ai/)
 
-<a href="https://www.fast.ai" target="_blank">
-    <img src="https://www.fast.ai/images/fastai-logo.svg" alt="FastAI" width="100"/>
-</a>
+[![HTML](https://www.vectorlogo.zone/logos/html5/html5-ar21.svg =100x)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://developer.mozilla.org/en-US/images/MDN_logo_128.png" alt="HTML" width="100"/>
-</a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://developer.mozilla.org/en-US/images/MDN_logo_128.png" alt="JavaScript" width="100"/>
-</a>
+[![JavaScript](https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg =100x)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Requirements
 
