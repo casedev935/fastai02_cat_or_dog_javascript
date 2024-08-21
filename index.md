@@ -3,10 +3,8 @@ title: Home
 layout: page
 ---
 
-# Simple JS Image Classifiers
-
 - This is a code based on FASTAI Deeplearning course. 
-- Try it out on the "Cat or Dog Classification" tab above :)
+- Try it out on the <span style="color: green;">Cat or Dog Classification</span> tab above :)
 - Have *fun*
 
 ## Other Examples

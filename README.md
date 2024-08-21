@@ -5,9 +5,12 @@
 - This project aims to correctly classify a picture of a dog or cat. 
 - This is a FASTAI course [Lesson #2](course.fastai.com) example that classifies whether the image is of a Dog or a Cat. 
 - It uses Gradio's API to predict the image. All other code is done with html/javascript. 
-- It then puts it into production via Github Pages, using FastPAGES. 
-- Link to this project's [CatDogJavascript](https://huggingface.co/spaces/casedev/test/)
-- It can also run locally just by opening index.html.
+
+## How to Run
+
+- Check out the Huggingface page [here](https://huggingface.co/spaces/casedev/catdogclassifier)
+- Check out the Github page [here](https://casedev935.github.io/fastai02_cat_or_dog_javascript/)
+- Or just run locally clicking in _catdogclassifier.html_
 
 ## Technologies used
 
@@ -17,6 +20,34 @@
 [![Gradio](https://github.com/gilbarbara/logos/blob/main/logos/gradio.svg)](https://www.gradio.app/)
 [![FastAI](https://github.com/fastai/logos/blob/main/fastai_small.png)](https://www.fast.ai/)
 
+<a href="https://www.kaggle.com" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kaggle_logo.svg/512px-Kaggle_logo.svg.png" alt="Kaggle" width="100"/>
+</a>
+
+<a href="https://jupyter.org" target="_blank">
+    <img src="https://jupyter.org/assets/main-logo.svg" alt="Jupyter" width="100"/>
+</a>
+
+<a href="https://huggingface.co" target="_blank">
+    <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="100"/>
+</a>
+
+<a href="https://gradio.app" target="_blank">
+    <img src="https://gradio.app/_static/gradio_logo.svg" alt="Gradio" width="100"/>
+</a>
+
+<a href="https://www.fast.ai" target="_blank">
+    <img src="https://www.fast.ai/images/fastai-logo.svg" alt="FastAI" width="100"/>
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://developer.mozilla.org/en-US/images/MDN_logo_128.png" alt="HTML" width="100"/>
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://developer.mozilla.org/en-US/images/MDN_logo_128.png" alt="JavaScript" width="100"/>
+</a>
+
 ## Requirements
 
 - FASTAI VISION
@@ -25,7 +56,7 @@
 
 - CatOrDogTrainer.ipynb
 - Trained in Kaggle Notebook
-- Pretrained on CNN RESNET-18 
+- Pretrained on _CNN RESNET-18_
 - Fine-tuned in 3 epochs
 - Generated model.pkl
 
@@ -33,30 +64,6 @@
 
 - Prediction used with Gradio's API endpoint. 
 
-- Gradio's API code snippet to fetch the prediction: 
-
-```
-client = Client("casedev/test")
-result = client.predict(
-		img=handle_file('image'),
-		api_name="/predict"
-)
-print(result)
-```
-
-- Result's dictionary is in the following form:
-
-```
-Dict(label:       str | int | float | None, 
-     
-     confidences: List
-     		[Dict(
-     				label: str | int | float | None, 
-     				confidence:  float | None)
-     		] 
-
-     		| None)
-```
 
 
 
